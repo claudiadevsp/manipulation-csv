@@ -13,7 +13,6 @@ class Main {
 
         File data = new File();
         List<String[]> dataTrain = data.readFile("train.csv");
-        Integer count = 0;
         Writer writer = Files.newBufferedWriter(Paths.get("/home/challenge-codenation-enem/src/main/resources/testfiles/answer.csv"));
         CSVWriter csvWriter = new CSVWriter(writer);
 
